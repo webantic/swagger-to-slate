@@ -1,6 +1,6 @@
 {
-  "name": "swagger-to-slate",
-  "version": "1.0.3",
+  "name": "@webantic/swagger-to-slate",
+  "version": "1.0.4",
   "description": "Node module which converts the swagger spec file (json or yaml ) into slate markdown.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "dependencies": {
     "cliclopts": "^1.1.1",
     "minimist": "^1.2.0",
-    "js-yaml" : "^3.7.0"
+    "js-yaml": "^3.7.0"
   },
   "bin": {
     "swagger-to-slate": "./index.js"
